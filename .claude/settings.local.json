@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -sI https://gingerpeople.com)",
+      "Bash(curl -s https://gingerpeople.com/robots.txt)",
+      "Bash(curl -sL -A \"Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" https://gingerpeople.com/sitemap_index.xml)",
+      "Bash(curl -sL -A \"Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" https://gingerpeople.com/)",
+      "WebFetch(domain:gingerpeople.com)",
+      "WebSearch",
+      "Bash(curl -sI https://zenrojas.com)",
+      "WebFetch(domain:zenrojas.com)",
+      "Bash(curl *)"
+    ]
+  }
+}
